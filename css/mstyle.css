@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+.trex-container{
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+  width: 100%;
+}
+
+.json-container{
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 66vh;
+  width: 100%;
+}
+
+textarea{
+    display:block;
+    padding: 5px;
+    background-color: floralwhite;
+    outline: 1px solid black;
+    width: 100%;
+    max-width: 50vw;
+    word-wrap: normal;
+    overflow: inherit;
+}
+
+input{
+    width: 20vw;
+    height: 1.5vw;
+    font-size: 2vh;
+    margin-bottom: 2.5vh;
+}
+
+button{
+    width: 5vw;
+    
+}
